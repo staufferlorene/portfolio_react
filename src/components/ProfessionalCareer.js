@@ -5,71 +5,35 @@ function ProfessionalCareer(props) {
     return (
         <div>
             <div className="flex-titre">
-                <div>
                     <h2>Parcours</h2>
+            </div>
+
+            <div id="parcours" className="flex-container-parcours top-padding">
+                <div className="flex-parcours">
+                    <div>
+                        <p><span className="italic">2017 - 2024<br/></span>
+                             <span className="gras">Testeuse fonctionnelle<br/></span>
+                             Adaptabilité - Curiosité - Esprit d’équipe
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div id="parcours" className="container-parc pad-top">
-                <div className="txt-end">
-                    <p><span className="italic">2017 - 2024<br/></span>
-                        <span className="gras">Testeuse fonctionnelle<br/></span>
-                        Adaptabilité<br/>
-                        Curiosité<br/>
-                        Esprit d’équipe
-                    </p>
-                </div>
-
-                <div className="trait">
-                </div>
-
-                <div className="vide">
-                </div>
-
-                <div className="vide-d">
-                </div>
-            </div>
-
-            <div className="container-parc">
-                <div className="vide-g">
-                </div>
-
-                <div className="branche">
-                </div>
-
-                <div className="trait2">
-                </div>
-
-                <div className="txt-end2">
+            <div className="flex-container-parcours">
+                <div className="flex-parcours">
                     <p><span className="italic">2016 - 2017<br/></span>
                         <span className="gras">Coordinatrice<br/></span>
-                        Gestion stress<br/>
-                        Gestion équipe<br/>
-                        Gestion du temps
+                        Gestion stress - Gestion équipe - Gestion du temps
                     </p>
-                </div>
-
-                <div className="vide-g">
                 </div>
             </div>
 
-            <div className="container-parc">
-                <div className="txt-end">
+            <div className="flex-container-parcours bottom-padding">
+                <div className="flex-parcours">
                     <p><span className="italic">2012 - 2016<br/></span>
                         <span className="gras">Employée de service gestion<br/></span>
-                        Écoute<br/>
-                        Rigueur<br/>
-                        Entraide
+                        Écoute - Rigueur - Entraide
                     </p>
-                </div>
-
-                <div className="trait">
-                </div>
-
-                <div className="vide">
-                </div>
-
-                <div className="vide-d">
                 </div>
             </div>
         </div>

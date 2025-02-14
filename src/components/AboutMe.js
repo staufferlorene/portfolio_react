@@ -12,7 +12,7 @@ function AboutMe(props) {
         </div>
     <div id="a-propos" className="flex-container introduction">
         <div className="padding-right">
-            <img className="photo" src={portrait} alt="Une photo de moi" width="300px" height="447px"/>
+            <img className="photo" src={portrait} alt="Une photo de moi" style={{width:300, height:447}} />
         </div>
 
         <div className="txt-a-propos">

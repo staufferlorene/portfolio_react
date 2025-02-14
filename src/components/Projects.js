@@ -11,30 +11,27 @@ function Projects(props) {
             </div>
 
             <div id="projets" className="flex-container">
-                <div className="flex-projet test">
+                <div className="flex-projet">
                     <div>
-                        <img className="bord-arrondi" src="portfolio_html_css.png" alt="" width="300px"
-                             height="200px"/>
+                        <img className="bord-arrondi" src="portfolio_html_css.png" alt="capture d'écran d'un site internet réalisé par mes soins" style={{width:300, height:200}}/>
                         <p className="gras txt-centre pad">Portfolio</p>
                         <p>Site sur lequel vous êtes actuellement.<br/><br/>
                             Site réalisé en React JS dans le cadre de la formation.</p>
                     </div>
                 </div>
 
-                <div className="flex-projet test">
+                <div className="flex-projet">
                     <div>
-                        <img className="bord-arrondi" src="portfolio_wp.png" alt="" width="300px"
-                             height="200px"/>
+                        <img className="bord-arrondi" src="portfolio_wp.png" alt="capture d'écran d'un site internet réalisé par mes soins" style={{width:300, height:200}}/>
                         <p className="gras txt-centre pad">Portfolio</p>
                         <p>2ème Portfolio réalisé dans le cadre de la formation.<br/><br/>
                             Site réalisé avec WordPress.</p>
                     </div>
                 </div>
 
-                <div className="flex-projet test">
+                <div className="flex-projet">
                     <div>
-                        <img className="bord-arrondi" src="cite_num.png" alt="" width="300px"
-                             height="200px"/>
+                        <img className="bord-arrondi" src="cite_num.png" alt="capture d'écran d'un site internet réalisé par mes soins" style={{width:300, height:200}}/>
                         <p className="gras txt-centre pad">Cité du Numérique de Blois</p>
                         <p>Projet client réalisé dans le cadre de la formation.<br/><br/>
                             Site réalisé avec WordPress en travail de groupe.</p>

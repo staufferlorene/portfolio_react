@@ -1,48 +1,18 @@
-.container-parc {
+.flex-parcours {
     display: flex;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-evenly;
+    border: 5px solid #A4B494;
+    border-radius: 20px;
+    padding: 10px 0 ;
+    text-align: center;
 }
 
-.txt-end {
-    text-align: end;
-    width: 50%;
-    padding: 10px;
+.bottom-padding {
+    padding-bottom: 40px;
 }
 
-.txt-end2 {
-    text-align: start;
-    width: 15%;
-    padding: 10px;
-    border-bottom: solid #A4B494 2px;
-}
-
-.trait {
-    width: 1px;
-    border-right: solid #A4B494 4px;
-}
-
-.trait2 {
-    width: 1px;
-    border-left: solid #A4B494 4px;
-    border-bottom: solid #A4B494 2px;
-}
-
-.vide-d {
-    width: 50%;
-}
-
-.vide {
-    width: 1px;
-    margin-left: 41px;
-}
-
-.vide-g {
-    width: 35%;
-}
-
-.branche {
-    width: 15%;
-    border-top: solid #A4B494 2px;
+.top-padding {
+    padding-top: 40px;
 }

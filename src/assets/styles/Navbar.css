@@ -1,5 +1,3 @@
-
-
 #main-header {
     background-color: #A4B494;
     position: sticky;
@@ -8,6 +6,8 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    z-index: 1000;
+    padding: 10px 0;
 }
 
 #main-header p {
@@ -29,17 +29,31 @@
     color: black;
     background-color: #007A56;
     border-radius: 20px;
-    margin-bottom: -5px;
+    margin-bottom: -10px;
+}
+
+#main-nav a:active {
+    text-decoration: underline;
 }
 
 .flex-menu {
     display: flex;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
     align-items: center;
-    padding: 10px;
-    margin-bottom: -5px;
+    margin: 0 auto;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligne les éléments à droite */
 }
 
 .num, .mail {
@@ -50,12 +64,14 @@
     font-size: 2rem;
 }
 
-
+/* Si tu veux aussi ajouter un peu d'espace entre les éléments du contact */
+.contact-info > div {
+    margin-bottom: 10px;
+}
 
 /***********
 ANCRE MENU
 ***********/
-
 #a-propos {
     scroll-margin-top: 183px;
 }
