@@ -32,10 +32,6 @@
     margin-bottom: -10px;
 }
 
-#main-nav a:active {
-    text-decoration: underline;
-}
-
 .flex-menu {
     display: flex;
     align-items: center;
