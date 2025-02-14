@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #A4B494;
+    font-family: 'dongleregular';
+    padding: 4px;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer a ,
+.footer p {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+}

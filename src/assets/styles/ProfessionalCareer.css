@@ -1,0 +1,48 @@
+.container-parc {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.txt-end {
+    text-align: end;
+    width: 50%;
+    padding: 10px;
+}
+
+.txt-end2 {
+    text-align: start;
+    width: 15%;
+    padding: 10px;
+    border-bottom: solid #A4B494 2px;
+}
+
+.trait {
+    width: 1px;
+    border-right: solid #A4B494 4px;
+}
+
+.trait2 {
+    width: 1px;
+    border-left: solid #A4B494 4px;
+    border-bottom: solid #A4B494 2px;
+}
+
+.vide-d {
+    width: 50%;
+}
+
+.vide {
+    width: 1px;
+    margin-left: 41px;
+}
+
+.vide-g {
+    width: 35%;
+}
+
+.branche {
+    width: 15%;
+    border-top: solid #A4B494 2px;
+}

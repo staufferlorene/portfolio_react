@@ -1,0 +1,14 @@
+.flex-projet {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    border: 5px solid #A4B494;
+    border-radius: 20px;
+}
+
+.test {
+    padding: 20px;
+    text-align: center;
+}

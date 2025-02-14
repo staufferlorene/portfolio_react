@@ -1,0 +1,39 @@
+.savoir-être-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.competence-section {
+    display: flex;
+    gap: 30px;
+}
+
+.savoir-etre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    border: 5px solid #A4B494;
+    border-radius: 20px;
+}
+
+.savoir-faire-container {
+    display: flex;
+    gap: 20px;
+}
+
+.savoir-faire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    gap: 15px;
+    border: 5px solid #A4B494;
+    border-radius: 20px;
+}

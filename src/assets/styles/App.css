@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'dongleregular';
+    src: url('../font/dongle-regular-webfont.eot');
+    src: url('../font/dongle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/dongle-regular-webfont.woff2') format('woff2'),
+    url('../font/dongle-regular-webfont.woff') format('woff'),
+    url('../font/dongle-regular-webfont.ttf') format('truetype'),
+    url('../font/dongle-regular-webfont.svg#dongleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HoltwoodOneSCRegular';
+    src: url('../font/HoltwoodOneSCRegular.eot');
+    src: url('../font/HoltwoodOneSCRegular.eot') format('embedded-opentype'),
+    url('../font/HoltwoodOneSCRegular.woff2') format('woff2'),
+    url('../font/HoltwoodOneSCRegular.woff') format('woff'),
+    url('../font/HoltwoodOneSCRegular.ttf') format('truetype'),
+    url('../font/HoltwoodOneSCRegular.svg#HoltwoodOneSCRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OreganoRegular';
+    src: url('../font/OreganoRegular.eot');
+    src: url('../font/OreganoRegular.eot') format('embedded-opentype'),
+    url('../font/OreganoRegular.woff2') format('woff2'),
+    url('../font/OreganoRegular.woff') format('woff'),
+    url('../font/OreganoRegular.ttf') format('truetype'),
+    url('../font/OreganoRegular.svg#OreganoRegular') format('svg');
+}
+
+
+/* ====== RESET ====== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ************************************************ */
+/* DESIGN GLOBAL */
+/* ************************************************ */
+
+.flex-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 40px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.bord-arrondi {
+    border-radius: 20px;
+}
+
+.txt-centre {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.pad-bot {
+    padding-bottom: 50px;
+}
+
+.pad-top {
+    padding-top: 40px;
+}
+
+.pad {
+    padding: 10px;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.s-b {
+    justify-content: space-between;
+}
+
+.no-souligne {
+    text-decoration: none;
+}
+
+.flex-titre {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 80px 0 10px;
+}
+
+
+body {
+    background-color: #FFF2D7;
+}
+
+h2,
+h3,
+p {
+    color: #007A56;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    color: black;
+    font-family: 'OreganoRegular';
+    font-size: 4rem;
+    padding: 3%;
+    margin: 3%;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(#474E40, #A4B494);
+}
+
+h2 {
+    font-family: 'HoltwoodOneSCRegular';
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'dongleregular';
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'dongleregular';
+    font-size: 2rem;
+}

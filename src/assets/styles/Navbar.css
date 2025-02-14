@@ -1,0 +1,71 @@
+#main-header {
+    background-color: #A4B494;
+    position: sticky;
+    top: 0;
+    border-radius: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#main-header p {
+    color: black;
+}
+
+#main-nav a {
+    display: block;
+    color: black;
+    font-family: 'dongleregular';
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+#main-nav a:hover {
+    color: black;
+    background-color: #007A56;
+    border-radius: 20px;
+    margin-bottom: -5px;
+}
+
+.flex-menu {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: -5px;
+}
+
+.num, .mail {
+    padding: 0 10px;
+}
+
+.font-size-menu {
+    font-size: 2rem;
+}
+
+
+
+/***********
+ANCRE MENU
+***********/
+
+#a-propos {
+    scroll-margin-top: 183px;
+}
+
+#competences {
+    scroll-margin-top: 183px;
+}
+
+#projets {
+    scroll-margin-top: 183px;
+}
+
+#parcours {
+    scroll-margin-top: 183px;
+}
