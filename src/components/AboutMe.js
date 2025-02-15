@@ -11,10 +11,6 @@ function AboutMe(props) {
             </div>
         </div>
     <div id="a-propos" className="flex-container introduction">
-        <div className="padding-right">
-            <img className="photo" src={portrait} alt="Une photo de moi" style={{width:300, height:447}} />
-        </div>
-
         <div className="txt-a-propos">
             <p>
                 Bonjour moi c’est Lorène, 33 ans, en cours de reconversion professionnelle en tant que développeuse web

@@ -14,13 +14,6 @@
     align-items: center;
 }
 
-
-.photo {
-    object-fit: contain;
-    margin-left: 200px;
-    border-radius: 20px;
-}
-
 .cv {
     width: 30%;
     text-decoration: none;

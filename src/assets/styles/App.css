@@ -249,6 +249,7 @@ body {
     background-color: #FFF2D7;
 }
 
+h1,
 h2,
 h3,
 p {
@@ -256,16 +257,9 @@ p {
 }
 
 h1 {
-    display: grid;
-    justify-content: center;
-    color: black;
     font-family: 'OreganoRegular';
-    font-size: 4rem;
-    padding: 3%;
-    margin: 3%;
+    font-size: 3rem;
     text-align: center;
-    border-radius: 20px;
-    background: linear-gradient(#474E40, #A4B494);
 }
 
 h2 {

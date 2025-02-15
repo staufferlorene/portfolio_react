@@ -1,0 +1,14 @@
+.photo {
+    object-fit: contain;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.liens {
+    text-decoration: none;
+    color: #A4B494;
+}
+
+.liens:hover {
+    color: #807559;
+}
