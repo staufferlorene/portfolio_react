@@ -1,7 +1,9 @@
-.photo {
-    object-fit: contain;
-    margin-left: 10px;
-    border-radius: 20px;
+.intro {
+    margin: 60px 0;
+}
+
+.intro-margin {
+    margin: 40px 0
 }
 
 .liens {
@@ -11,4 +13,12 @@
 
 .liens:hover {
     color: #807559;
+}
+
+.photo {
+    object-fit: contain;
+    width: 300px;
+    height: 447px;
+    margin-left: 10px;
+    border-radius: 20px;
 }

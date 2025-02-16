@@ -10,7 +10,7 @@ function AboutMe(props) {
                 <h2>A propos</h2>
             </div>
         </div>
-    <div id="a-propos" className="flex-container introduction">
+    <div id="a-propos" className="flex-container">
         <div className="txt-a-propos">
             <p>
                 Bonjour moi c’est Lorène, 33 ans, en cours de reconversion professionnelle en tant que développeuse web
