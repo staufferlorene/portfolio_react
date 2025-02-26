@@ -8,8 +8,7 @@ function LegalNotices(props) {
             </div>
 
             <div className="flex-container column">
-                <p>Vous êtes en train de consulter la page des mentions légales du portfolio de</p>
-                <a className="no-souligne" href="./index.html"><p>STAUFFER Lorène.</p></a><br/>
+                <p>Vous êtes en train de consulter la page des mentions légales du portfolio de STAUFFER Lorène.</p><br/>
                 <br/>
                 <p>
                     <span className="gras">Identité : </span>STAUFFER Lorène<br/>

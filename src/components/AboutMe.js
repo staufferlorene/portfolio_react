@@ -1,6 +1,5 @@
 import React from 'react';
 import "../assets/styles/AboutMe.css";
-import portrait from "../assets/img/portrait.jpg";
 
 function AboutMe(props) {
     return (

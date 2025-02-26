@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PrivacyPolicy from "../pages/PrivacyPolicy";
-import LegalNotices from "../pages/LegalNotices";
 import "../assets/styles/Footer.css"
 
 function Footer(props) {
@@ -9,8 +7,8 @@ function Footer(props) {
         <div>
             <div className="footer margin-top">
                 <ul>
-                    <li><Link to="/LegalNotices">Mentions légales</Link></li>
-                    <li><Link to="/PrivacyPolicy">Politique de confidentialité</Link></li>
+                    <li><Link to="/LegalNotices" target="_blank">Mentions légales</Link></li>
+                    <li><Link to="/PrivacyPolicy" target="_blank">Politique de confidentialité</Link></li>
                 </ul>
             </div>
             <div className="footer">
