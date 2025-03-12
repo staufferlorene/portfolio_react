@@ -1,3 +1,12 @@
+.projects-flex-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 40px;
+}
+
 .flex-projet {
     display: flex;
     flex-direction: row;
@@ -8,4 +17,15 @@
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+}
+
+.bord-arrondi {
+    border-radius: 20px;
+}
+
+
+.x {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }

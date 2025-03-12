@@ -8,7 +8,7 @@ function Skills(props) {
                 <h2>Compétences</h2>
             </div>
 
-            <div id="competences" className="flex-container">
+            <div id="competences" className="skills-flex-container">
                 <div className="competence-section">
 
                     {/*Savoir-faire*/}

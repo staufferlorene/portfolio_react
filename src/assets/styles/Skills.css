@@ -1,12 +1,24 @@
+.skills-flex-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 40px;
+}
+
+
 .savoir-être-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .competence-section {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -24,6 +36,7 @@
 .savoir-faire-container {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .savoir-faire {
@@ -36,4 +49,55 @@
     gap: 15px;
     border: 5px solid #A4B494;
     border-radius: 20px;
+}
+
+/**********************************************/
+/**************  MEDIA QUERIES  ***************/
+/**********************************************/
+
+@media (max-width: 768px) {
+    .skills-flex-container {
+        padding: 20px;
+    }
+
+    .competence-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .savoir-faire, .savoir-etre {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .savoir-faire-container, .savoir-être-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .savoir-faire-card, .txt-centre {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-flex-container {
+        padding: 10px;
+    }
+
+    .competence-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .savoir-faire, .savoir-etre {
+        width: 100%;
+        height: auto;
+    }
+
+    .savoir-faire-container, .savoir-être-container {
+        gap: 10px;
+    }
 }

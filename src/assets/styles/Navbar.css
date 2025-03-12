@@ -53,18 +53,9 @@
 /* ANCRE MENU */
 /* ************************************************ */
 
-#a-propos {
-    scroll-margin-top: 183px;
-}
-
-#competences {
-    scroll-margin-top: 183px;
-}
-
-#projets {
-    scroll-margin-top: 183px;
-}
-
+#a-propos,
+#competences,
+#projets,
 #parcours {
     scroll-margin-top: 183px;
 }

@@ -20,7 +20,7 @@ function AboutMe(props) {
                 Actuellement en formation à la F@brique Numérique 41 à Blois, je recherche un contrat de
                 professionnalisation du 22/04/2025 au 24/04/2026 sur Romorantin et jusqu’à 45km aux alentours.
             </p>
-            <a className="cv" href="CV.pdf" target="_blank">Télécharger mon CV</a>
+            <a className="cv" href="CV.pdf" target="_blank">Mon CV</a>
         </div>
     </div>
         </div>

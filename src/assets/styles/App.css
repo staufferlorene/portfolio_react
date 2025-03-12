@@ -188,9 +188,7 @@ table {
     flex-direction: column;
 }
 
-.bord-arrondi {
-    border-radius: 20px;
-}
+
 
 .txt-centre {
     text-align: center;

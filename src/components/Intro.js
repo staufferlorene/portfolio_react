@@ -4,7 +4,7 @@ import "../assets/styles/Intro.css"
 
 function Intro(props) {
     return (
-        <div className="flex-container">
+        <div className="intro-flex-container">
             <div className="intro">
                 <h1>Lorène, développeuse web et web mobile junior.</h1>
                 <h1 className="intro-margin">En recherche d'alternance du 22 avril 2025 au 24 avril 2026.</h1>

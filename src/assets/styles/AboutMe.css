@@ -7,7 +7,7 @@
 }
 
 .cv {
-    width: 15%;
+    width: 10%;
     text-decoration: none;
     text-align: center;
     padding: 10px;
@@ -24,3 +24,21 @@
     background-color: #A4B494;
     border-radius: 20px;
 }
+
+
+/*@media (max-width: 768px) {*/
+/*    .cv {*/
+/*        width: 80%; !* Le bouton prend 80% de la largeur de l'écran sur mobile *!*/
+/*        font-size: 1.2rem; !* Réduire la taille de la police pour les petits écrans *!*/
+/*        padding: 12px; !* Augmenter un peu le padding pour une meilleure expérience *!*/
+/*    }*/
+/*}*/
+
+/*!* Media query pour les très petits écrans (smartphones en portrait) *!*/
+/*@media (max-width: 480px) {*/
+/*    .cv {*/
+/*        width: 90%; !* Le bouton prend 90% de la largeur de l'écran sur smartphones *!*/
+/*        font-size: 1rem; !* Réduire encore la taille de la police *!*/
+/*        padding: 10px; !* Réduire légèrement le padding *!*/
+/*    }*/
+/*}*/
