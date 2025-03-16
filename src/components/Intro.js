@@ -8,7 +8,7 @@ function Intro(props) {
             <div className="intro">
                 <h1>Lorène, développeuse web et web mobile junior.</h1>
                 <h1 className="intro-margin">En recherche d'alternance du 22 avril 2025 au 24 avril 2026.</h1>
-                <h1>Découvrez mon <a className="liens" href="https://www.campus-centre.fr/lafabriquenumerique41/" target="_blank">programme de formation</a> à la F@brique Numérique 41.</h1>
+                <h1>Découvrez mon <a className="liens" href="https://www.campus-centre.fr/lafabriquenumerique41/" target="_blank">programme de formation</a> à la F@brique numérique 41.</h1>
             </div>
 
             <div>

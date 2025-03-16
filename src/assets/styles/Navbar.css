@@ -4,7 +4,6 @@
     top: 0;
     border-radius: 20px;
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
     z-index: 1000;
 }
@@ -58,4 +57,31 @@
 #projets,
 #parcours {
     scroll-margin-top: 183px;
+}
+
+@media (max-width: 980px) {
+    #main-nav a,
+    .font-size-menu {
+        font-size: 1.5rem;
+    }
+
+    .flex-menu img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 756px) {
+    .flex-menu img,
+    .num,
+    .mail {
+        display: none;
+    }
+}
+
+@media (max-width: 547px) {
+    #main-nav a,
+    .font-size-menu {
+        font-size: 1rem;
+    }
 }

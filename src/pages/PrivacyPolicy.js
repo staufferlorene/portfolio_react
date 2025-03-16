@@ -8,9 +8,8 @@ function PrivacyPolicy(props) {
             </div>
 
             <div className="flex-container column">
-                <p>Vous êtes en train de consulter la page de politique de confidentialité du portfolio de STAUFFER Lorène.<br />
-                    Aucune donnée personnelle n'est collectée.
-                </p>
+                <p>Vous êtes en train de consulter la page de politique de confidentialité du portfolio de STAUFFER Lorène.</p>
+                <p>Aucune donnée personnelle n'est collectée.</p>
             </div>
         </div>
         );

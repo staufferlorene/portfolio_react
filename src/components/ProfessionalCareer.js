@@ -11,29 +11,30 @@ function ProfessionalCareer(props) {
             <div id="parcours" className="flex-container-parcours top-padding">
                 <div className="flex-parcours">
                     <div>
-                        <p><span className="italic">2017 - 2024<br/></span>
-                             <span className="gras">Testeuse fonctionnelle<br/></span>
-                             Adaptabilité - Curiosité - Esprit d’équipe
-                        </p>
+                        <p><span className="italic">2017 - 2024</span></p>
+                        <p><span className="gras">Testeuse fonctionnelle</span></p>
+                        <p>Adaptabilité - Curiosité - Esprit d’équipe</p>
                     </div>
                 </div>
             </div>
 
             <div className="flex-container-parcours">
                 <div className="flex-parcours">
-                    <p><span className="italic">2016 - 2017<br/></span>
-                        <span className="gras">Coordinatrice<br/></span>
-                        Gestion stress - Gestion équipe - Gestion du temps
-                    </p>
+                    <div>
+                        <p><span className="italic">2016 - 2017</span></p>
+                        <p><span className="gras">Coordinatrice</span></p>
+                        <p>Gestion stress - Gestion équipe - Gestion du temps</p>
+                    </div>
                 </div>
             </div>
 
             <div className="flex-container-parcours bottom-padding">
                 <div className="flex-parcours">
-                    <p><span className="italic">2012 - 2016<br/></span>
-                        <span className="gras">Employée de service gestion<br/></span>
-                        Écoute - Rigueur - Entraide
-                    </p>
+                    <div>
+                        <p><span className="italic">2012 - 2016</span></p>
+                        <p><span className="gras">Employée de service gestion</span></p>
+                        <p>Écoute - Rigueur - Entraide</p>
+                    </div>
                 </div>
             </div>
         </div>

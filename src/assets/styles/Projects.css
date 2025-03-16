@@ -5,6 +5,11 @@
     margin: 0 auto;
     justify-content: center;
     padding: 40px;
+    gap: 10px;
+}
+
+.bord-arrondi {
+    border-radius: 20px;
 }
 
 .flex-projet {
@@ -12,20 +17,16 @@
     flex-direction: row;
     width: 65%;
     justify-content: space-evenly;
-    margin: 0 10px;
     border: 5px solid #A4B494;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
 }
 
-.bord-arrondi {
-    border-radius: 20px;
-}
-
-
-.x {
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
+@media (max-width: 1240px) {
+    .projects-flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
